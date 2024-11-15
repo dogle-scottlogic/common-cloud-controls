@@ -7,7 +7,7 @@ common_controls:
   - CCC.C06 # Prevent deployment in restricted regions
   - CCC.C07 # Alert on non-human enumeration
   - CCC.C09 # Prevent tampering, deletion, or unauthorized access to access logs
-  - CCC.C10 # Prevent data replication to desinations outside of defined trust perimeter
+  - CCC.C10 # Prevent data replication to destinations outside of defined trust perimeter
 
 controls:
   - id: CCC.ObjStor.C01 # Prevent Requests to Buckets or Objects with Untrusted KMS Keys
